@@ -115,13 +115,6 @@ Where:
 
 ---
 
-## 🎥 Demonstrations & Figures
-
-[![Video 1: Real-time formation flight demonstration](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)  
-*Video 1: Real-time formation flight demonstration*
-
-![Multi-Marker Detection](figures/multi_marker_detection.png)  
-*Fig 2.7: Multi-marker detection under varying conditions*
 
 ---
 ## 🔍 Future Improvements
@@ -132,7 +125,15 @@ Where:
 
 ---
 
-## 📧 Contact
-**Author:** Nitesh Kumar  
-**Mentor:** Dr. Ronak Gupta  
-For questions, please open a GitHub issue.
+### 📹 Field Testing Video
+[📥 Download & Watch Test Video](https://drive.google.com/file/d/1JZ3NOyC9hoaikbANnyhYPBDoCg2FOD1a/view?usp=drive_link))
+
+
+#Marker Dection.
+![Multi-Marker Detection](figures/multi_marker_detection.png)  
+<img width="500" height="500" alt="image_1" src="https://github.com/user-attachments/assets/ed1670d2-8169-4fe0-9314-d03efbb2c596" />
+<img width="500" height="500" alt="Image_2" src="https://github.com/user-attachments/assets/013d22b7-7ab4-42cb-adda-2ef27ce7d4f5" />
+
+
+
+
