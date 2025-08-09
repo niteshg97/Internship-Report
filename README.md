@@ -1,6 +1,5 @@
 # 🚁 UAV Formation Control — ArUco Marker-Based Leader–Follower Tracking  
 **TIH iHub Drishti | IIT Jodhpur | July 2025**  
-
 ---
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
