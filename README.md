@@ -15,7 +15,7 @@
 This project implements a **vision-based leader–follower UAV formation control system** using **ArUco markers** for relative pose estimation and a **vector-field control law** for stable tracking.  
 It is designed for **GPS-denied environments**, enabling autonomous coordination between drones based solely on onboard camera and computer vision algorithms.
 
-> 🧾 **Full Report (PDF)** is included in the repository — see [`Final_Report.pdf`](Final_Report.pdf)
+> 🧾 **Full Report (PDF)** is included in the repository — see [`Final_Report.pdf`](https://drive.google.com/file/d/1RP-vB7r8DxE9ECV-YNQd_9_YhrM64mn-/view?usp=drive_link)
 
 ---
 
@@ -128,12 +128,19 @@ Where:
 ### 📹 Field Testing Video
 [📥 Download & Watch Test Video](https://drive.google.com/file/d/1JZ3NOyC9hoaikbANnyhYPBDoCg2FOD1a/view?usp=drive_link))
 
-
-#Marker Dection.
+---
+###Marker Detection.
 ![Multi-Marker Detection](figures/multi_marker_detection.png)  
 <img width="500" height="500" alt="image_1" src="https://github.com/user-attachments/assets/ed1670d2-8169-4fe0-9314-d03efbb2c596" />
 <img width="500" height="500" alt="Image_2" src="https://github.com/user-attachments/assets/013d22b7-7ab4-42cb-adda-2ef27ce7d4f5" />
+<img width="500" height="500" alt="Indoor_testing" src="https://github.com/user-attachments/assets/0cbbbec5-309d-445e-8c08-329569818fab" />
 
+---
 
+---
 
+## 🧾 Final Report
+[📥 Download Final_Report (PDF)](https://drive.google.com/file/d/1RP-vB7r8DxE9ECV-YNQd_9_YhrM64mn-/view?usp=drive_link)
+
+---
 
