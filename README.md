@@ -15,7 +15,7 @@
 This project implements a **vision-based leader–follower UAV formation control system** using **ArUco markers** for relative pose estimation and a **vector-field control law** for stable tracking.  
 It is designed for **GPS-denied environments**, enabling autonomous coordination between drones based solely on onboard camera and computer vision algorithms.
 
-> 🧾 **Full Report (PDF)** is included in the repository — see [`Final_Report.pdf`](https://drive.google.com/file/d/1RP-vB7r8DxE9ECV-YNQd_9_YhrM64mn-/view?usp=drive_link)
+> 🧾 **Full proposal (PDF)** is available in `docs/` — see **Full Proposal** at the end of this README.
 
 ---
 
