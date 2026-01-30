@@ -1,4 +1,4 @@
-# 🚁 UAV Formation Control — ArUco Marker-Based Leader–Follower Tracking  
+#  UAV Formation Control — ArUco Marker-Based Leader–Follower Tracking  
 **TIH iHub Drishti | IIT Jodhpur | July 2025**  
 ---
 
@@ -10,16 +10,16 @@
 
 ---
 
-## 🛰️ Overview
+## Overview
 This project implements a **vision-based leader–follower UAV formation control system** using **ArUco markers** for relative pose estimation and a **vector-field control law** for stable tracking.  
 It is designed for **GPS-denied environments**, enabling autonomous coordination between drones based solely on onboard camera and computer vision algorithms.
 
-> 🧾 **Full Internship Report (PDF)** is available in `docs/` — see **Internship_Report** at the end of this README.
+>  **Full Internship Report (PDF)** is available in `docs/` — see **Internship_Report** at the end of this README.
 ---
 
-## 🧰 System Architecture
+## System Architecture
 
-### ⚙️ Hardware Stack
+###  Hardware Stack
 | Component | Specification |
 |-----------|---------------|
 | **UAV Platform** | DJI Mavic 3 Enterprise (Leader + Follower) |
@@ -28,7 +28,7 @@ It is designed for **GPS-denied environments**, enabling autonomous coordination
 | **Fiducial Marker** | 15 cm ArUco (DICT_4X4_50) |
 | **Communication** | MAVLink protocol via ROS 2 (900 MHz link) |
 
-### 🧩 Software Stack
+### Software Stack
 - **Middleware:** ROS 2 Foxy + MAVROS  
 - **Computer Vision:** OpenCV 4.7 (ArUco detection, PnP solving)  
 - **Control System:** Vector-field controller (C++/Python)  
@@ -36,9 +36,9 @@ It is designed for **GPS-denied environments**, enabling autonomous coordination
 
 ---
 
-## ⚙️ Technical Workflow
+##  Technical Workflow
 
-### 1️⃣ Marker Detection & Pose Estimation
+###  Marker Detection & Pose Estimation
 
 #### Step 1: ArUco Marker Detection
 - Uses **OpenCV's ArUco module** (`cv2.aruco`) to detect fiducial markers in the RGB image.
@@ -72,7 +72,7 @@ R, _ = cv2.Rodrigues(rvec)
 
 ---
 
-### 2️⃣ Control Law
+### Control Law
 
 #### Step 1: Positional Error
 ```python
@@ -115,7 +115,7 @@ Where:
 
 
 ---
-## 🔍 Future Improvements
+## Future Improvements
 - Onboard real-time deployment on Jetson Xavier NX.  
 - Integrating SLAM/VIO for temporary marker occlusion recovery.  
 - Exploring AprilTags for higher detection range.  
@@ -123,8 +123,8 @@ Where:
 
 ---
 
-### 📹 Field Testing Video
-[📥 Download & Watch Test Video](https://drive.google.com/file/d/1JZ3NOyC9hoaikbANnyhYPBDoCg2FOD1a/view?usp=drive_link))
+### Field Testing Video
+[Download & Watch Test Video](https://drive.google.com/file/d/1JZ3NOyC9hoaikbANnyhYPBDoCg2FOD1a/view?usp=drive_link))
 
 ---
 ###Marker Detection.
@@ -137,8 +137,8 @@ Where:
 
 ---
 
-## 🧾 Final Report
-[📥 Download Final_Report (PDF)](https://drive.google.com/file/d/1RP-vB7r8DxE9ECV-YNQd_9_YhrM64mn-/view?usp=drive_link)
+##Final Report
+[ Download Final_Report (PDF)](https://drive.google.com/file/d/1RP-vB7r8DxE9ECV-YNQd_9_YhrM64mn-/view?usp=drive_link)
 
 ---
 
